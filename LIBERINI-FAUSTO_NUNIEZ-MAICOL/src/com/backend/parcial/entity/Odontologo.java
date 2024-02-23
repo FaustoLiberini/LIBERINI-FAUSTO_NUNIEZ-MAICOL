@@ -1,15 +1,31 @@
 package com.backend.parcial.entity;
 
 public class Odontologo {
+    private int id;
     private String nombre;
     private String apellido;
     private int matricula;
-    private int id;
 
-    public Odontologo(String nombre, String apellido, int matricula, int id) {
+
+    public Odontologo(int id, String nombre, String apellido, int matricula) {
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.matricula = matricula;
+
+    }
+
+    public Odontologo(String nombre, String apellido, int matricula) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -37,12 +53,10 @@ public class Odontologo {
         this.matricula = matricula;
     }
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
+    @Override
+    public String toString() {
+        return "ID: " + id + " - Nombre: " + nombre + " - Apellido: " + apellido + " - Matricula: " + matricula;
     }
 
 }
