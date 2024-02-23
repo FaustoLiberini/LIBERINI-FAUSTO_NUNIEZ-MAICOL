@@ -1,0 +1,4 @@
+[2024-02-23 15:59:15] [ INFO ] [OdontologoDaoMemoria:30] Buscando todos los odontologos en memoria
+[2024-02-23 15:59:15] [ INFO ] [OdontologoDaoMemoria:32] ID: 1 - Nombre: Renata - Apellido: Perez - Matricula: 1323
+[2024-02-23 15:59:15] [ INFO ] [OdontologoDaoMemoria:32] ID: 2 - Nombre: Maria - Apellido: Sanchez - Matricula: 753
+[2024-02-23 15:59:16] [ INFO ] [OdontologoDaoH2:84] Listado de todos los odontologos: [ID: 1 - Nombre: Juan - Apellido: Perez - Matricula: 12345, ID: 2 - Nombre: Maria - Apellido: Gomez - Matricula: 54321]
